@@ -1,6 +1,10 @@
 :root {
   --color-light-beige: #fffeec;
   --color-pill-background: lightgreen;
+  --color-light-blue: #5b94c0;
+  --font-meta: 'Inter', sans-serif;
+  --font-heading: 'Space Grotesk', sans-serif;
+  
 }
 
 
@@ -31,9 +35,12 @@ h3 {
 p {
     font-size: 1rem;
     line-height: 1.5;
+    font-family: var(--font-primary);
+    color: #111111;
 
     &.eyebrow {
         font-size: 0.75rem;
+        font-family: var(--font-meta);
         text-transform: uppercase;
         letter-spacing: 1px;
         display: flex;
@@ -44,6 +51,7 @@ p {
     }
         &.eyebrow--pill {
         font-size: 0.75rem;
+        font-family: var(--font-meta);
         text-transform: uppercase;
         letter-spacing: 1px;
         display: flex;
@@ -159,4 +167,8 @@ p {
     }
   }
 
+}
+
+.block.block--section.bg--light-blue {
+  background-color: var(--color-light-blue);
 }
