@@ -1,7 +1,7 @@
 :root {
   --color-light-beige: #fffeec;
   --color-pill-background: lightgreen;
-  --color-light-blue: #5b94c0;
+  --color-light-blue: #ebf3fc;
   --font-meta: 'Inter', sans-serif;
   --font-heading: 'Space Grotesk', sans-serif;
   
@@ -94,7 +94,7 @@ p {
   &.block--section { 
     display: flex;
     flex-direction: column;
-    background-color: var(--color-light-beige);
+    /* background-color: var(--color-light-beige); */
     padding-inline: 12px;
 
   }
@@ -169,6 +169,10 @@ p {
 
 }
 
-.block.block--section.bg--light-blue {
+.bg--light-beige {
+  background-color: var(--color-light-beige);
+}
+
+.bg--light-blue {
   background-color: var(--color-light-blue);
 }
